@@ -5,9 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/eski.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -19,15 +17,15 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <div id="carouselMain" class="carousel slide carousel-fade" data-ride="carousel">
+  <div id="carouselMain" class="carousel carousel-fade" data-ride="carousel" data-pause="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/view.jpg" alt="Вид">
+        <img class="d-block w-100" src="img/view.jpg" alt="Вид сверху">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
         <img class="d-block w-100" src="img/cave.jpg" alt="Внутри пещеры">
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
         <img class="d-block w-100" src="img/house.jpg" alt="Номера">
       </div>
     </div>
@@ -38,6 +36,10 @@
       <span class="carousel-control-next-icon"></span>
     </a>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="js/eski.js"></script>
 
 </body>
 </html>
