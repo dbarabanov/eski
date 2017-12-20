@@ -13,3 +13,7 @@
   top: 0;
   left: 0;
 }
+.carousel-caption {
+    top: 70%;
+    bottom: auto;
+}
