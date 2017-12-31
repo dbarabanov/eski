@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .carousel-fade .carousel-item {
   display: block;
   position: relative;
