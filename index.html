@@ -46,8 +46,8 @@
       </div>
     </nav>
   </header>
-  <section id="slider">
-    <div id="carouselMain" class="carousel carousel-fade" data-ride="carousel" data-pause="false">
+  <div class="container-fluid">
+    <div id="slider" class="carousel carousel-fade row" data-ride="carousel" data-pause="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="img/view.jpg" alt="Вид">
@@ -68,16 +68,17 @@
           </div>        
         </div>
       </div>
-        <a class="carousel-control-prev" href="#carouselMain" data-slide="prev">
+        <a class="carousel-control-prev" href="#slider" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#carouselMain" data-slide="next">
+      <a class="carousel-control-next" href="#slider" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-  </section>  
-  <section class="text-center" id="about-us">
-      <h2 class="my-4">Мини отель Эски-Кермен это:</h2>
+  <div class="row bg-light" id="about-us">
+      <div class="col text-center">
+        <h5>Мини отель Эски-Кермен это:</h5>
+      </div>
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
@@ -119,10 +120,11 @@
           </div>
         </div>
       </div>
-  </section>
-  <section class="text-center" id="prices">
-    <div class="container-fluid">
-      <h3>Цены</h3>
+    </div>
+  <div class="row" id="prices">
+      <div class="col text-center">
+        <h5>Цены</h5>
+      </div>
       <table class="table table-striped table-sm">
         <thead>
           <tr>
@@ -182,11 +184,12 @@
             <td>200 р.</td>            
           </tr>                                                   
         </tbody>
-      </table>      
-      <h5 class="text-left">Расчетный час – 12:00. Заезд – 14:00. Выезд – 12:00.</h5>
+      </table>
+      <div class="col text-center">
+        <h5>Расчетный час – 12:00. Заезд – 14:00. Выезд – 12:00.</h5>
+      </div>
     </div>
-  </section>
-  <section id="map1">
+    <div class="row bg-light" id="map1">
     <div class="container-fluid">    
       <h3 class="text-center">Как к нам добраться</h3>      
       <div class="google-map">
@@ -194,11 +197,11 @@
       </div>
       <h5 class="text-center">Координаты: 44.616365, 33.737087</h5>
     </div>      
-  </section>
-  <footer class="bg-dark">
-      <div class="text-right text-light">Мини-отель Эски-Кермен &copy; 2018. Все права защищены.</div>
-  </footer>
-
+    </div>
+    <div class="row" id="footer">
+      <div class="col bg-dark text-right text-light">Мини-отель Эски-Кермен &copy; 2018. Все права защищены.</div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
