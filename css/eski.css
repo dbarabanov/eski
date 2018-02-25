@@ -33,3 +33,16 @@ body {
     width:100%;
     position:absolute;
 }
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.scale-effect:hover{
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+.card-caption{
+    position: absolute;
+    color: white;
+    top: 75%;
+}
