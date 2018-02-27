@@ -45,4 +45,6 @@ body {
     position: absolute;
     color: white;
     top: 75%;
+    width: 100%;
+    text-shadow: 1px 1px 1px black;
 }
