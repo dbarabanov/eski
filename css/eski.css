@@ -48,3 +48,10 @@ body {
     width: 100%;
     text-shadow: 1px 1px 1px black;
 }
+.reasons{
+    background: transparent url("../img/yellow_view.jpg") repeat fixed 50% 0px / cover;
+}
+.checkmark{
+  width: 3em;
+  height: 3em;
+}
