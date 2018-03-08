@@ -20,19 +20,6 @@ body {
     top: 60%;
     bottom: auto;
 }
-.google-map{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-.google-map iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
 .img-wrapper{
   position: relative;
   overflow: hidden;
@@ -54,4 +41,10 @@ body {
 .checkmark{
   width: 3em;
   height: 3em;
+}
+.navbar{
+  background: linear-gradient(to top right, #B9624F, #e2ba18);
+}
+.footer-content{
+  background: linear-gradient(to bottom right, #B9624F, #e2ba18);
 }
